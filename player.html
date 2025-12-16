@@ -38,6 +38,7 @@ function play(url){
     iframe.style.display="none";
     video.style.display="block";
 
+    
     if(Hls.isSupported()){
       hls=new Hls();
       hls.loadSource(url);
